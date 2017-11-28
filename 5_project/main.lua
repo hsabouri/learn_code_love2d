@@ -1,0 +1,7 @@
+-- Project 1
+-- Subject:
+-- Create a simplified snake game
+-- 	- The player is a "0" moving in the window with keyboard arrows
+--	- Some food ("*") is randomly placed in the window
+--	- The player has to eat the food by moving on it
+--	- 
