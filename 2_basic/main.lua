@@ -1,7 +1,9 @@
--- Subject, modify this code to make "Hello Mickey !" moving up instead of down
+-- Sujet: Faites bouger r2d2 vers la droite plutot que vers le bas !
 
 function love.load()
-	x, y = 400, 300
+	r2d2 = love.graphics.newImage("r2d2.png")
+
+	x, y = 0, 0
 
 	move_down = true
 	move_up = false
@@ -25,5 +27,7 @@ function love.update(dt)
 end
 
 function love.draw()
-	love.graphics.print("Hello Mickey !", x, y)
+	love.graphics.draw(r2d2, x, y)
 end
+
+-- BONUS: Faites le bouger en diagonale ;)

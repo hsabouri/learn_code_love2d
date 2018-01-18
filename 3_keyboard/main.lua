@@ -1,7 +1,8 @@
--- Subject, modify the code to make "Hello Mickey !" moving when pressing keyboard arrows
+-- SUJET: Faites bouger r2d2 en appuyant sur les touches du clavier ! Google est votre meilleur ami :)
 
 function love.load()
-	x, y = 400, 300
+	r2d2 = love.graphics.newImage("r2d2.png")
+	x, y = 0, 0
 end
 
 function love.update(dt)
@@ -20,11 +21,9 @@ function love.update(dt)
 end
 
 function love.draw()
-	love.graphics.print("Hello Mickey !", x, y)
+	love.graphics.draw(r2d2, x, y)
 end
 
--- hint: https://love2d.org/wiki/Main_Page
--- hint 2: (try searching before !) https://love2d.org/wiki/love.keyboard.isDown
+-- indice: https://love2d.org/wiki/love.keyboard.isDown
 
--- Bonus, prevent "Hello Mickey !" from going outside the window (window size is (800, 600))
--- Bonus 2, quit when pressing escape
+-- BONUS: Quitter le jeux en appuyant sur Echap

@@ -1,4 +1,5 @@
--- Subject, complete the following code so when pressing "space" displayed number grows
+-- SUJET: Completez ce code pour que le nombre change en appuyant sur la touche espace.
+-- ATTENTION: Vous devez faire plusieurs lignes de code, n'hesitez pas a vous inspirer des exercices d'avant !
 
 function love.load()
 	number = 0

@@ -1,14 +1,14 @@
--- Project 1
--- Subject:
--- Create a simplified snake game
--- 	- The player is a "0" moving in the window with keyboard arrows
---	- Some food ("*") is randomly placed in the window
---	- The player has to eat the food by moving over it
---	- When player eats food, new food is placed randomly into the window
---	- When player eats food, 0 become 1 then 2 etc...
---	- Player and Food should not be able to go out of the window
---	- When pressing "escape", game quits
+-- PROJET 1
+-- SUJET:
+-- Creer un jeu snake simplifier
+-- 	- R2D2 doit bouger avec les fleches du clavier
+--	- Des piles electriques sont placees aleatoirement sur la zone de jeu
+--	- R2D2 doit recuperer les piles en roulant dessus
+--	- Quand R2D2 recupere une pile, une nouvelle est placee
+--	- Un nombre affiche en haut de l'ecran indique le nombre de piles recuperees
+--	- On peut quitter le jeux en appuyant sur echap
 
+-- Regardez les exercices precedents ;)
 
-
--- hint: https://love2d.org/wiki/love.math.random
+-- indice: https://love2d.org/wiki/love.math.random
+-- indice: https://love2d.org/wiki/love.window.getDimensions

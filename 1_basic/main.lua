@@ -1,22 +1,23 @@
--- Subject, modify this code to allow "Hello Mickey !" to move
+-- Sujet: Modifier le code suivant pour que Mickey puisse bouger
 
--- Default values
+-- Valeurs par defaut :
 function love.load()
+	r2d2 = love.graphics.newImage("r2d2.png")
 	x, y = 0, 0
-	move = false
+	move = true
 end
 
--- each frame, x and y are growing
+-- 30 fois par seconde, les valeurs x et y changent
 function love.update(dt)
 	if move then
-		x = x + 1 -- Woaah hard maths :)
+		x = x + 1
 		y = y + 1
 	end
 end
 
--- each frame, we write "Hello Mickey !" at (x, y) position
+-- 30 fois par seconde, on affiche l'image de r2d2 a la position x, y
 function love.draw()
-	love.graphics.print("Hello Mickey !", x, y)
+	love.graphics.draw(r2d2, x, y)
 end
 
--- Bonus: Change "Hello Mickey !" by something else.
+-- Bonus: Si r2d2 ne vous plait pas, mettez une autre image !
