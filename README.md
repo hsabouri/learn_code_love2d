@@ -27,5 +27,7 @@ L'intervenant montre la facon dont sont présentés les exercices et en résout 
 ### Faire les exercices à son rythme
 Chaque groupe d'élève doit faire les exercices dans l'ordre. Pour les plus rapides, chaque exercice contient des bonus et un projet les attend à la fin
 
-### Montrer le code du projet final (5 min avant la fin)
-Discuter avec les élèves pour leur faire comprendre le code ou au moins une partie
+### Montrer le code du projet final et conclusion (5 min avant la fin)
+Montrer le code et expliquer un peu comment ça se passe.
+Expliquer dans les grandes lignes comment un plus gros jeux vidéo est créé
+Et vous quel jeux-vidéos aimeriez-vous créer ?
