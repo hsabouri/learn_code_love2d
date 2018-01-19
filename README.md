@@ -29,5 +29,5 @@ Chaque groupe d'élève doit faire les exercices dans l'ordre. Pour les plus rap
 
 ### Montrer le code du projet final et conclusion (5 min avant la fin)
 Montrer le code et expliquer un peu comment ça se passe.
-Expliquer dans les grandes lignes comment un plus gros jeux vidéo est créé
+Expliquer dans les grandes lignes comment un plus gros jeux vidéo est créé.
 Et vous quel jeux-vidéos aimeriez-vous créer ?
