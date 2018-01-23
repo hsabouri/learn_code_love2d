@@ -25,5 +25,4 @@ function love.draw()
 end
 
 -- indice: https://love2d.org/wiki/love.keyboard.isDown
-
--- BONUS: Quitter le jeux en appuyant sur Echap
+-- BONUS: Faites quitter le jeux en appuyant sur Echap

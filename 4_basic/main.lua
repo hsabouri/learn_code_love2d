@@ -1,4 +1,4 @@
--- SUJET: Completez ce code pour que le nombre change en appuyant sur la touche espace.
+-- SUJET: Completez ce code pour que le nombre augmente en appuyant sur la touche espace.
 -- ATTENTION: Vous devez faire plusieurs lignes de code, n'hesitez pas a vous inspirer des exercices d'avant !
 
 function love.load()

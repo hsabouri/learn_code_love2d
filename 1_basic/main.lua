@@ -1,10 +1,10 @@
--- Sujet: Modifier le code suivant pour que Mickey puisse bouger
+-- Sujet: Modifier le code suivant pour que r2d2 puisse bouger
 
 -- Valeurs par defaut :
 function love.load()
 	r2d2 = love.graphics.newImage("r2d2.png")
 	x, y = 0, 0
-	move = true
+	move = false
 end
 
 -- 30 fois par seconde, les valeurs x et y changent
