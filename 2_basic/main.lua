@@ -5,8 +5,8 @@ function love.load()
 
 	x, y = 0, 0
 
-	move_down = true
-	move_up = false
+	move_down = false
+	move_up = true
 	move_right = false
 	move_left = false
 end

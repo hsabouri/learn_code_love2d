@@ -18,4 +18,3 @@
 -- Regardez les exercices precedents ;)
 
 -- indice: https://love2d.org/wiki/love.math.random
--- indice: https://love2d.org/wiki/love.window.getDimensions
