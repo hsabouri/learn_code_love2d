@@ -1,6 +1,6 @@
 -- PROJET 1
 -- SUJET:
--- Creer un jeu snake simplifier
+-- Créer un jeu snake simplifié
 -- 	- R2D2 doit bouger avec les fleches du clavier
 --	- Des piles electriques sont placees aleatoirement sur la zone de jeu
 --	- R2D2 doit recuperer les piles en roulant dessusa !
